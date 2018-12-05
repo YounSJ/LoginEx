@@ -4,10 +4,12 @@
 <html>
 <head>
 <meta charset="EUC-KR">
-<title>Insert title here</title>
+<title>HomePage</title>
 </head>
 <body>
-	메인페이지<br />
-	<input type="button" value="로그인" onclick="javascript:window.location='Login.html'"> <input type="button" value="회원가입" onclick="javascript:window.location='Join.html'">
+	<h1>안녕하세요! 테스트 중 입니다</h1>
+	
+	<img src="D:\JSP_ver.2018\ex\beer.jpg" alt="맥주" width="240" height="320"><br />
+	<input type="button" value="로그인" onclick="javascript:window.location='Login.jsp'"> <input type="button" value="회원가입" onclick="javascript:window.location='Join.jsp'">
 </body>
 </html>

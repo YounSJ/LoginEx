@@ -52,10 +52,10 @@ public class JoinOk extends HttpServlet {
 			
 			if(i == 1) {
 				System.out.println("Insert Success");
-				response.sendRedirect("Login.html");
+				response.sendRedirect("Login.jsp");
 			}else {
 				System.out.println("Insert Fail");
-				response.sendRedirect("Join.html");
+				response.sendRedirect("Join.jsp");
 			}
 			
 		}catch(Exception e) {

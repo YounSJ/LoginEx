@@ -12,7 +12,7 @@
 		<%
 			session.invalidate(); // 스크립트릿이 없으면 Login.html로 이동하지않음
 		%>
-		location.href="Login.html";
+		location.href="Login.jsp";
 	</script>
 </body>
 </html>

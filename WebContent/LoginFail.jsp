@@ -8,6 +8,6 @@
 </head>
 <body>
 	아이디 또는 비밀번호가 맞는지 확인해주세요.<br />
-	<input type="button" value="돌아가기" onclick="javascript:window.location='Login.html'">
+	<input type="button" value="돌아가기" onclick="javascript:window.location='Login.jsp'">
 </body>
 </html>
