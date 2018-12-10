@@ -18,10 +18,10 @@
 				<td>아이디</td><td><input type="text" name="id" placeholder="아이디를 입력해주세요." size="30" required></td>
 			</tr>
 			<tr>
-				<td>비밀번호</td><td><input type="password" name="pw" placeholder="비밀번호를 입력해주세요." size="32"></td>
+				<td>비밀번호</td><td><input type="password" name="pw" placeholder="비밀번호를 입력해주세요." size="32" required></td>
 			</tr>
 			<tr>
-				<td>비밀번호확인</td><td><input type="password" name="pwconfig" placeholder="한번 더 입력해주세요." size="32"></td>
+				<td>비밀번호확인</td><td><input type="password" name="pwconfig" placeholder="한번 더 입력해주세요." size="32" required></td>
 			</tr>
 		</tbody>
 	</table>

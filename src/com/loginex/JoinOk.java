@@ -13,11 +13,9 @@ import javax.servlet.http.HttpServletResponse;
 
 @WebServlet("/JoinOk")
 public class JoinOk extends HttpServlet {
-	private static final long serialVersionUID = 1L;
       
 	private Connection conn;
 	private Statement stmt;
-	
 	
     public JoinOk() {
         super();
@@ -70,7 +68,7 @@ public class JoinOk extends HttpServlet {
 			
 		}
 	}
-
+	
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		doGet(request, response);

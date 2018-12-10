@@ -9,5 +9,6 @@
 <body>
 	로그인 완료된 메인페이지<br />
 	<input type="button" value="로그아웃" onclick="javascript:window.location='Logout.jsp'">
+	<input type="button" value="회원정보수정" onclick="javascript:window.location='Modify.jsp'">
 </body>
 </html>
